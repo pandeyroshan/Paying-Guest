@@ -1,0 +1,436 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NUH</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'hostel/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'hostel/css/open-iconic-bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'hostel/css/animate.css' %}">
+    
+    <link rel="stylesheet" href="{% static 'hostel/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'hostel/css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'hostel/css/magnific-popup.css'%}">
+
+    <link rel="stylesheet" href="{% static 'hostel/css/bootstrap-datepicker.css' %}">
+    <link rel="stylesheet" href="{% static 'hostel/css/jquery.timepicker.css' %}">
+
+    
+    
+    <link rel="stylesheet" href="{% static 'hostel/css/icomoon.css' %}">
+    <link rel="stylesheet" href="{% static 'hostel/css/style.css' %}">
+    <meta></met
+  </head>
+  <body data-spy="scroll" data-target="#site-navbar" data-offset="200">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark site_navbar bg-dark site-navbar-light" id="site-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="/">NUH</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="site-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="#section-home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#section-about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#section-offer" class="nav-link">facility</a></li>
+            <li class="nav-item"><a href="#section-news" class="nav-link">Rooms</a></li>
+            <li class="nav-item"><a href="#section-gallery" class="nav-link">Gallery</a></li>
+            <li class="nav-item"><a href="#section-contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->
+
+    <section class="site-cover" style="background-image: url({% static 'hostel/images/image1.png' %})" id="section-home">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center site-vh-100">
+          <div class="col-md-12">
+            <h1 class="site-heading site-animate mb-3">NUMERO UNO HOME</h1>
+            <h2 class="h5 site-subheading mb-5 site-animate">Second only to mom's care.</h2>    
+            <p><a href="#section-about" class="btn btn-outline-white btn-lg site-animate">Know More</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+    
+    <section class="site-section" id="section-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 site-animate mb-5">
+            <h4 class="site-sub-title">Our Story</h4>
+            <h2 class="site-primary-title display-4">Welcome</h2>
+            <p class="text-secondary">To everyone who's moved out of the comfort of your own home and away from your mother's food, we understand. Hence, we aspire to provide comfort, the best food and a homely atmosphere to everyone looking for it! </p>
+
+            <p class="mb-4 text-secondary">Numero Uno Home (NUH) is presently engaged in servicing Government clients, corporate clients and individuals for their Guest House and Paying Guest accommodation needs. We believe in playing substitute to all super-moms while away from home. </p>
+            <p><a href="#" class="btn btn-secondary btn-lg">Learn More About Us</a></p>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-6 site-animate img" data-animate-effect="fadeInRight">
+            <img src="{% static 'hostel/images/mam.jpg' %}" alt="Free Template by colorlib.com" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+    
+
+    <section class="site-section" id="section-offer">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-12 text-center mb-5 site-animate">
+            <h4 class="site-sub-title">OUR FACILITY</h4>
+            <h2 class="display-4">We offer the best facility in best price</h2>
+            <div class="row justify-content-center">
+              <div class="col-md-7">
+                <p class="lead">Facilities provided in our Accommodation:</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="owl-carousel site-owl">
+
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="{% static 'hostel/images/power.jpg' %}" class="img-fluid embed-responsive embed-responsive-4by3">
+                  <div class="media-body p-md-5 p-4">
+                    <h5 class="mt-0 h4">100% Power Backup</h5>
+                    <p class="mb-4 text-secondary">Power cut is very normal in India but Not in our PGs. We provide 100% power backup for Electricity</p>
+
+                    <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">Order Now!</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="{% static 'hostel/images/neww.jpg' %}" class="img-fluid" style="width: 100%;">
+                  <div class="media-body p-md-5 p-4">
+                    <h5 class="mt-0 h4">High Speed wi-fi</h5>
+                    <p class="mb-4 text-secondary">The basic need of modern world, fulfilled very well in our PGs with high speed Internet facility.</p>
+
+                    <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">Order Now!</a></p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="{% static 'hostel/images/water.jpg'%}" alt="Free Template by colorlib.com" class="img-fluid">
+                  <div class="media-body p-md-5 p-4">
+                    <h5 class="mt-0 h4">RO Water</h5>
+                    <p class="mb-4 text-secondary">Purified water supply is available in the PGs in order to avoid any kind of health related issues.</p>
+
+                    <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">Order Now!</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="{% static 'hostel/images/ac.png' %}" alt="Free Template by colorlib.com" class="img-fluid">
+                  <div class="media-body p-md-5 p-4">
+                    <h5 class="mt-0 h4">Air Conditioned rooms</h5>
+                    <p class="mb-4 text-secondary">To get relief from the hot season, our all PG's rooms are fully air Conditioned for full comport.</p>
+
+                    <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">Order Now!</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="{% static 'hostel/images/food.jpg'%}" alt="Free Template by colorlib.com" class="img-fluid">
+                  <div class="media-body p-md-5 p-4">
+                    <h5 class="mt-0 h4">Breakfast and Dinner</h5>
+                    <p class="mb-4 text-secondary">We Provide delicious meal,two times in a day, with keeping the sanitation issues in mind.</p>
+
+                    <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">Order Now!</a></p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="{% static 'hostel/images/tv.png'%}" alt="Free Template by colorlib.com" class="img-fluid">
+                  <div class="media-body p-md-5 p-4">
+                    <h5 class="mt-0 h4">Tata Sky TV</h5>
+                    <p class="mb-4 text-secondary">We love watching TV and I guess you guys too, so we have provided Tata Sky connection in Every PG.</p>
+
+                    <p class="mb-0"><a href="#" class="btn btn-primary btn-sm">Order Now!</a></p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+
+    <section class="site-section" id="section-news">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-12 text-center mb-5 site-animate">
+            <h4 class="site-sub-title">ROOM TYPES</h4>
+            <h2 class="display-4">All types of Rooms are Available</h2>
+            <div class="row justify-content-center">
+              <div class="col-md-7">
+                <p class="lead">Kindly check the Availability Status before coming to us.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="owl-carousel site-owl">
+
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="{% static 'hostel/images/1.jpg'%}" class="img-fluid embed-responsive embed-responsive-4by3">
+                  <div class="media-body p-md-5 p-4">
+                    <h5 class="mt-0 h4">{{singleType}} <br> <h5 class="text-success">{{singleStatus}}</h5>
+                    <p class="mb-4 text-secondary">{{singleNote}}</p>
+
+                    <p class="mb-0"><a href="#" class="btn btn-primary">{{singleRent}} INR</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="{% static 'hostel/images/2.png'%}" class="img-fluid" style="width: 100%;">
+                  <div class="media-body p-md-5 p-4">
+                    <h5 class="mt-0 h4">{{doubleType}} <br> <h5 class="text-success">{{doubleStatus}}</h5></h5>
+                    <p class="mb-4 text-secondary">{{doubleNote}}</p>
+
+                    <p class="mb-0"><a href="#" class="btn btn-primary">{{doubleRent}} INR</a></p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="{% static 'hostel/images/3.png'%}" alt="Free Template by colorlib.com" class="img-fluid">
+                  <div class="media-body p-md-5 p-4">
+                    <h5 class="mt-0 h4">{{tripleType}} <br> <h5 class="text-success">{{tripleStatus}}</h5></h5>
+                    <p class="mb-4 text-secondary">{{tripleNote}}</p>
+
+                    <p class="mb-0"><a href="#" class="btn btn-primary">{{tripleRent}} INR</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="media d-block mb-4 text-center site-media site-animate border-0">
+                  <img src="{% static 'hostel/images/4.png'%}" alt="Free Template by colorlib.com" class="img-fluid">
+                  <div class="media-body p-md-5 p-4">
+                    <h5 class="mt-0 h4">{{fourType}} <br> <h5 class="text-success">{{fourStatus}}</h5></h5>
+                    <p class="mb-4 text-secondary">{{fourNote}}</p>
+
+                    <p class="mb-0"><a href="#" class="btn btn-primary">{{fourRent}} INR</a></p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    
+
+    <section class="site-section" id="section-gallery">
+      <div class="container">
+        <div class="row site-custom-gutters">
+
+          <div class="col-md-12 text-center mb-5 site-animate">
+            <h2 class="display-4">Gallery</h2>
+            <div class="row justify-content-center">
+              <div class="col-md-7">
+                <p class="lead">Here are some pictures of our PG, to show you the glimpse of how we serve our guests.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 site-animate">
+            <a href="{% static 'hostel/images/a1.jpg'%}" class="site-thumbnail image-popup">
+              <img src="{% static 'hostel/images/a1.jpg'%}" alt="Free Template by colorlib.com" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4 site-animate">
+            <a href="{% static 'hostel/images/a2.jpg'%}" class="site-thumbnail image-popup">
+              <img src="{% static 'hostel/images/a2.jpg'%}" alt="Free Template by colorlib.com" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4 site-animate">
+            <a href="{% static 'hostel/images/a3.jpg'%}" class="site-thumbnail image-popup">
+              <img src="{% static 'hostel/images/a3.jpg'%}" alt="Free Template by colorlib.com" class="img-fluid">
+            </a>
+          </div>
+
+          <div class="col-md-4 site-animate">
+            <a href="{% static 'hostel/images/a4.jpg'%}" class="site-thumbnail image-popup">
+              <img src="{% static 'hostel/images/a4.jpg'%}" alt="Free Template by colorlib.com" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4 site-animate">
+            <a href="{% static 'hostel/images/a5.jpg'%}" class="site-thumbnail image-popup">
+              <img src="{% static 'hostel/images/a5.jpg'%}" alt="Free Template by colorlib.com" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4 site-animate">
+            <a href="{% static 'hostel/images/home.jpg'%}" class="site-thumbnail image-popup">
+              <img src="{% static 'hostel/images/home.jpg'%}" alt="Free Template by colorlib.com" class="img-fluid">
+            </a>
+          </div>
+
+          <div class="col-md-4 site-animate">
+            <a href="{% static 'hostel/images/a7.jpg'%}" class="site-thumbnail image-popup">
+              <img src="{% static 'hostel/images/a7.jpg'%}" alt="Free Template by colorlib.com" class="img-fluid">
+            </a>
+          </div>
+
+          <div class="col-md-4 site-animate">
+            <a href="{% static 'hostel/images/a8.jpg'%}" class="site-thumbnail image-popup">
+              <img src="{% static 'hostel/images/a8.jpg'%}" alt="Free Template by colorlib.com" class="img-fluid">
+            </a>
+          </div>
+          
+          <div class="col-md-4 site-animate">
+            <a href="{% static 'hostel/images/a9.jpg'%}" class="site-thumbnail image-popup">
+              <img src="{% static 'hostel/images/a9.jpg'%}" alt="Free Template by colorlib.com" class="img-fluid">
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="site-section" id="section-contact">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-12 text-center mb-5 site-animate">
+            <h2 class="display-4">Get In Touch</h2>
+            <div class="row justify-content-center">
+              <div class="col-md-7">
+                <p class="lead text-secondary">Still have a question in your mind ? We will love to hear from you.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7 mb-5 site-animate">
+            <form action="" method="post">
+              {% csrf_token %}
+              <div class="form-group">
+                <label for="name" class="sr-only">Name</label>
+                <input name='name' type="text" class="form-control" id="name" placeholder="Name" required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="sr-only">Email</label>
+                <input name='email' type="text" class="form-control" id="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <label for="message" class="sr-only">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Write your message" required></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary btn-lg" value="Send Message">
+              </div>
+            </form>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-4 site-animate">
+            <p><img src="{% static 'hostel/images/mam.jpg' %}" alt="" class="img-fluid"></p>
+            <p class="text-black">
+              {{name}}<br>
+              Address: <br> {{address}} <br> Uttar Pradesh (INDIA) <br> <br>
+              Phone: <br> {{phone}} <br> <br>
+              Email: <br> <a href="mailto:shikhanayyar2207@gmail.com">{{email}}</a>
+            </p>
+
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+    
+
+    <footer class="site-footer site-bg-dark site-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-4 site-animate">
+                <h2 class="site-heading-2">About Us</h2>
+                <p>We take immense pride in our corporate clientele which includes some of the largest organizations in the country as well as national and international government bodies. We have worked on multiple central government projects such as Udaan.</p>
+                <br><br><br>
+                <p>If you are a corporate looking for boarding and lodging for your employees, clients, students, trainees, etc., we would be more than happy to tailor make projects to meet your requirements.</p>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-2 site-animate mr-10">
+                <div class="site-footer-widget mb-4">
+                 <h2 class="site-heading-2">Our Locations</h2>
+                 <ul class="list-unstyled">
+                   <li><a href="https://www.google.com/maps/dir//28.597247,77.337108/@28.597395,77.3348273,17z" class="py-2 d-block">M-12 Sector - 11, Noida ( Girls PG )</a></li><br>
+                   <li><a href="https://www.google.com/maps/dir//28.5774092,77.3223915/@28.577409,77.3202033,17z" class="py-2 d-block">A-639 Sector - 19, Noida ( Girls PG )</a></li><br>
+                   <li><a href="https://www.google.com/maps/dir//28.5712415,77.34823519999998" class="py-2 d-block">C3/125 Sector - 36, Noida ( Boys PG )</a></li><br>
+                   <li><a href="https://www.google.com/maps/dir//28.5750829,77.32813499999997" class="py-2 d-block">E-313 Sector - 27, Noida ( Boys PG )</a></li><br>
+                 </ul>
+               </div>
+             </div>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.8843213466453!2d77.34681501508128!3d28.573236182441192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5c155555557%3A0xb20f833997375bfb!2sNumero+Uno+Home+PG!5e0!3m2!1sen!2sin!4v1562822725171!5m2!1sen!2sin" width="475" height="400" frameborder="0" style="border:0;" allowfullscreen></iframe>
+              
+            </div>
+          </div>
+         
+        </div>
+        <div class="row site-animate">
+          <div class="col-md-12 text-center">
+            <p>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | BACKEND DEVELOPER <i class="icon-heart" aria-hidden="true"></i><a href="https://www.linkedin.com/in/roshan172/" target="_blank"> roshan172</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- loader -->
+    <div id="site-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+    <script src="{% static 'hostel/js/jquery.min.js' %}"></script>
+    <script src="{% static 'hostel/js/popper.min.js' %}"></script>
+    <script src="{% static 'hostel/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'hostel/js/jquery.easing.1.3.js' %}"></script>
+    <script src="{% static 'hostel/js/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'hostel/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'hostel/js/jquery.magnific-popup.min.js' %}"></script>
+
+    <script src="{% static 'hostel/js/bootstrap-datepicker.js' %}"></script>
+    <script src="{% static 'hostel/js/jquery.timepicker.min.js' %}"></script>
+    
+    <script src="{% static 'hostel/js/jquery.animateNumber.min.js' %}"></script>
+    
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="{% static 'hostel/js/google-map.js' %}"></script>
+
+    <script src="{% static 'hostel/js/main.js' %}"></script>
+  </body>
+</html>
