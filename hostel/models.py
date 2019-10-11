@@ -13,7 +13,7 @@ class RoomType(models.Model):
         verbose_name = 'ROOM INFO'
         verbose_name_plural = 'ROOM INFO'
     def __str__(self):
-        return self.roomType + ' data'
+        return self.roomType + ' data' + self.status
 
 class AdminAddress(models.Model):
     name = models.CharField(max_length=40)
@@ -25,7 +25,7 @@ class AdminAddress(models.Model):
         verbose_name = 'ADMIN INFO'
         verbose_name_plural = 'ADMIN INFO'
     def __str__(self):
-        return 'ADMIN INFORMATION'
+        return 'Admin Information'
 
 class MessageData(models.Model):
     name = models.CharField(max_length=50)
