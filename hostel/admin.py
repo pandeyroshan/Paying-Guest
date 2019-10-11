@@ -6,6 +6,8 @@ from .models import MessageData
 
 admin.site.site_title = 'NUH'
 admin.site.site_header = 'NUH ADMIN PANEL'
+
+
 admin.site.register(RoomType)
 admin.site.register(AdminAddress)
 admin.site.register(MessageData)
